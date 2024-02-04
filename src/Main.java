@@ -1,5 +1,13 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+
+//1. Lista de Tarefas
+//Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. Implemente os seguintes métodos:
+//
+//adicionarTarefa(String descricao): Adiciona uma nova tarefa à lista com a descrição fornecida.
+//removerTarefa(String descricao): Remove uma tarefa da lista com base em sua descrição.
+//obterNumeroTotalTarefas(): Retorna o número total de tarefas na lista.
+//obterDescricoesTarefas(): Retorna uma lista contendo a descrição de todas as tarefas na lista.
 public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
