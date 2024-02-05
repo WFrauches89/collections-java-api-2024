@@ -32,11 +32,11 @@ public class OrdenacaoPessoas {
 
         System.out.println("Lista de pessoas: "+oP.pessoaList);
 
-        oP.addPessoa("Nome 1", 15, 1.65);
+        oP.addPessoa("Nome 1", 25, 1.65);
         oP.addPessoa("Nome 2", 13, 2.05);
         oP.addPessoa("Nome 3", 14, 1.55);
         oP.addPessoa("Nome 4", 16, 1.75);
-        oP.addPessoa("Nome 5", 19, 1.85);
+        oP.addPessoa("Nome 5", 39, 1.85);
         oP.addPessoa("Nome 6", 18, 1.95);
         oP.addPessoa("Nome 7", 17, 1.65);
 
@@ -45,7 +45,6 @@ public class OrdenacaoPessoas {
         System.out.println("A pessoa mais nova é: "+oP.ordenarIdade().get(0));
         System.out.println("Lista ordenada por altura é: "+oP.ordenarAltura());
         System.out.println("A pessoa mais baixa é: "+oP.ordenarAltura().get(0));
-
 
     }
 
